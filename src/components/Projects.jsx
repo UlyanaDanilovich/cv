@@ -6,7 +6,7 @@ import minesweeper from '../assets/Minesweeper.gif';
 import redux from '../assets/Notion.gif';
 import reactRouter from '../assets/Router.gif';
 import ticToe from '../assets/TicToe.gif';
-import todo from '../assets/ToDo.gif';
+import todo from '../assets/Todo.gif';
 import Cards from './Cards';
 
 const Projects = () => {
