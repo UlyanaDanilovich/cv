@@ -3,16 +3,16 @@ import React from 'react';
 import Github from '../assets/Github.png';
 
 const Cards = ({ item }) => {
-    // Проверяем, определен ли элемент
+    
     if (!item) {
-        return null; // Если item не определен, ничего не показываем
+        return null; 
     }
 
-    // Проверяем, есть ли изображение и заголовок
-    const image = item.image || 'defaultImagePath'; // Укажите путь к изображению по умолчанию
+    
+    const image = item.image || 'defaultImagePath'; 
     const title = item.title || 'Без названия';
     const desc = item.desc || 'Описание недоступно.';
-    const githubLink = item.github || '#'; // Ссылка по умолчанию
+    const githubLink = item.github || '#'; 
 
     return (
         <div className='border border-purple-700 rounded-lg w-[350px] lg:w-[400px] bg-purple-100'>

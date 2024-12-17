@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Logo from '../assets/logo.png'; // Убедитесь, что путь правильный
+import Logo from '../assets/logo.png'; 
 
 const Navbar = () => {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -18,9 +18,9 @@ const Navbar = () => {
                 <button className='inline-flex items-center justify-center rounded-md md:hidden' onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
                     <span className='sr-only'>Open main menu</span>
                     {mobileMenuOpen ? (
-                        <span className='h-6 w-6' aria-hidden="true">✖</span> // Иконка "закрыть"
+                        <span className='h-6 w-6' aria-hidden="true">✖</span> 
                     ) : (
-                        <span className='h-6 w-6' aria-hidden="true">☰</span> // Иконка "меню"
+                        <span className='h-6 w-6' aria-hidden="true">☰</span> 
                     )}
                 </button>
             </div>
